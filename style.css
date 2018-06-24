@@ -1,0 +1,276 @@
+.person
+{
+	padding:0px;
+	margin:0px;
+}
+.row1
+{
+	padding: 0px;
+	margin: 0px;
+	height: 420px;
+	width: 100%;
+}
+.logo
+{
+	padding:17px;
+	
+}
+.logo li
+{
+	list-style: none;
+	text-decoration:none;
+}
+.brand-logo
+{
+	border: 1px solid #337ab7;
+	border-radius:50%;
+	color:white;
+	background-color:#337ab7;
+	padding: 10px;
+	
+}
+
+.fill-scneen1
+{
+	height: 400px !important;
+}
+.fill-scneen1 img
+{
+	display: block;
+    width: 100%;
+    height: 400px;
+}
+
+.round img
+{
+	border-radius: 50%; 
+	width:20%; 
+	height:20%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -230px;
+}
+.first-class
+{
+	text-align: center;
+	color: white;
+	font-size:25px;
+}
+.last-name
+{
+	color: blue;
+}
+.headder
+{
+	text-align:center;
+	padding:50px;
+}
+.headder h2
+{
+	border-top: 1px solid lightgray;
+	padding-top: 10px;
+}
+
+h2>span 
+{
+	position: relative;
+	color: black;
+	text-decoration:none;
+}
+h2> span:hover, nav a:hover
+{
+	border-bottom: 2px solid black;
+	color:black;
+	transition:all 0.3s;
+}
+
+h2 > span:before
+{
+	content:**;
+	position:relative;
+	width:100%;
+	height:2px;
+	bottom:0;
+	left:0;
+	background-color:black;
+	visibility:hidden;
+	-webkit-transform: scalex(0);
+	transform:scalex(0);
+}
+h2 > span:hover:before
+{
+	visibility:visible;
+	transform:scalex(1);
+}
+	
+.social
+{
+	padding-left: 110px;
+	margin:0px;	
+}
+.bottom
+{
+	padding-bottom:50px;
+}
+
+.section-1
+{
+	height:50vh;
+	background-image:url(../images/g1.png);
+	background-size:cover;
+	background-attachment:fixed;
+}
+.section-2
+{
+	height:50vh;
+	background-image:url(../images/mm2.png);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.section-3
+{
+	height:50vh;
+	background-image:url(../images/squire.png);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.section-4
+{
+	height:50vh;
+	background-image:url(../images/mac.png);
+	background-attachment: fixed;
+	background-size: cover;
+}
+.group
+{
+	text-align: center;
+}
+.card
+{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    line-height: 40px;
+    margin: 10px;
+    width: 65%;
+    height: 200px;
+    transition: all 1.0s ease;
+    transform-style: preserve-3d;
+}
+.card h2
+{
+	color:white;
+}
+.qualification h3
+{
+	color: white;
+}
+
+.front,.back 
+{
+	position:absolute;
+	width:100%;
+	height:100%;	
+	backface-visibility: hidden;	
+}
+.front{
+	background:#337ab7;
+}
+.back
+{
+	background: #0FC;
+	transform: rotateY(180deg);
+}
+.card:hover
+{
+	transform: rotateY(180deg);
+}
+.artical#skills-progress
+{
+	padding: 3px 10px 0px;
+}
+div.progress
+{
+	font-weight:bold;
+	color:white;
+	background:#e3f0f9;
+	border:none;
+	box-shadow:none;
+	height:1.5em;
+}
+.div.progress-bar > span
+{
+	float:left;
+	position:relative;
+	top:4px;
+	left:2%;
+}
+.progress-bar
+{
+	font-size:100%;
+}
+.skill-level
+{
+	font-size:80%;
+	color:#0FC;
+	padding-right:2%;
+}
+.skill-cards
+{
+	margin-top:10px;
+}
+.smoll-text
+{
+	font-size:10px;
+}
+
+.skill-tech
+{
+	width:100%;
+	margin-bottom:50px;
+	padding:20px;
+}
+.box-shadow
+{
+	float: left;
+    border: 1px solid #f3f0f0;
+	padding: 0px;
+    margin: 10px;
+    box-shadow: 10px 10px 15px #b9bbb9;
+	
+}
+
+.box-shadow p,h4
+{
+	text-align: justify;
+	padding: 0px;
+    margin: 10px;
+
+}
+.collapse a: hover
+{
+	border-bottom:3px solid red;
+}
+.collapse a. active
+{
+	border-bottom: 3px solid red;
+}
+.icon
+{
+	padding:5px;
+	margin:5px;
+}
+#menu ul
+{
+	list-style:none;
+}
+/*********Media-Quiry**********/
+@media(max-width: 768px){
+.social
+{
+padding-left:0px;
+}	
+
+
+}
